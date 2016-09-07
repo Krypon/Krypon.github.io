@@ -1,6 +1,6 @@
 {
   "name": "Krypon.GitHub.io",
   "tagline": "琳CSDN博客 测试",
-  "body": "# Krypon.github.io\r\n测试博客\r\n\r\nvar element = document.getElementById('myfirstdiv');\r\n\t\t\tvar input = document.getElementById('username');\r\n\t\t\t//获取文本框的值\r\n\t\t\telement.onclick = function(e) {\r\n\t\t\t\talert(input.value);\r\n\t\t\t}\r\n\t\t\t//监测文本框的变化\r\n\t\t\tinput.onchange=function(e){\r\n\t\t\t\tconsole.log(this.value);\r\n\t\t\t}\r\n\t\t\tconsole.log(element);",
+  "body": "# Krypon.github.io\r\n(测试博客)\r\n\r\nvar element = document.getElementById('myfirstdiv');/\r\nvar input = document.getElementById('username');/\r\n//获取文本框的值/\r\n\telement.onclick = function(e) {/\r\n\t\talert(input.value);/\r\n\t}/\r\n//监测文本框的变化/\r\n\tinput.onchange=function(e){/\r\n\t\tconsole.log(this.value);/\r\n\t}/\r\n\tconsole.log(element);/",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
